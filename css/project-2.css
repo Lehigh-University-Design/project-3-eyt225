@@ -17,31 +17,33 @@
   }
   
   body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "League Spartan";
+    font-optical-sizing: 2em;
     font-style: normal;
     background-color: var(--background-color);
     margin: 1em;
     font-size: 20px;
     color: var(--dark-color);
+    line-height: 1.8;
       }      
 
   
   img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    padding-left: 1em;
   }
   
   h1 {
     font-size: 6em;
     font-weight: 400;
     font-family: "Annie Use Your Telescope";
-    color: var(--medium-color);
-    padding: 0, 1em, 1em;
+    color: var(--light-color);
+    line-height: 1; /* Increase the line spacing between paragraphs */
   }
   
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 200;
     font-family: "Annie Use Your Telescope";
     color: var(--light-color)
@@ -183,7 +185,7 @@ h3, h4 {
   
     .section {
       padding: 1em;
-      gap: 2em;
+      gap: 1em;
       grid-template-columns: 2fr;
     }
     .media {
